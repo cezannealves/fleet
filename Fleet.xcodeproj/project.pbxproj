@@ -15,6 +15,14 @@
 		3F53B3691E2E3A6200B28A3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F53B3671E2E3A6200B28A3C /* LaunchScreen.storyboard */; };
 		3F53B3921E2E51D500B28A3C /* VeiculosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F53B3911E2E51D500B28A3C /* VeiculosCell.swift */; };
 		3F53B3961E2E52D900B28A3C /* VeiculosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F53B3951E2E52D900B28A3C /* VeiculosTableViewController.swift */; };
+		53F9D6E41E2E6323004C9600 /* Veiculo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9D6DC1E2E6323004C9600 /* Veiculo+CoreDataClass.swift */; };
+		53F9D6E51E2E6323004C9600 /* Veiculo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9D6DD1E2E6323004C9600 /* Veiculo+CoreDataProperties.swift */; };
+		53F9D6E61E2E6323004C9600 /* Condutor+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9D6DE1E2E6323004C9600 /* Condutor+CoreDataClass.swift */; };
+		53F9D6E71E2E6323004C9600 /* Condutor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9D6DF1E2E6323004C9600 /* Condutor+CoreDataProperties.swift */; };
+		53F9D6E81E2E6323004C9600 /* Trajetoria+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9D6E01E2E6323004C9600 /* Trajetoria+CoreDataClass.swift */; };
+		53F9D6E91E2E6323004C9600 /* Trajetoria+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9D6E11E2E6323004C9600 /* Trajetoria+CoreDataProperties.swift */; };
+		53F9D6EA1E2E6323004C9600 /* Emprestimo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9D6E21E2E6323004C9600 /* Emprestimo+CoreDataClass.swift */; };
+		53F9D6EB1E2E6323004C9600 /* Emprestimo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9D6E31E2E6323004C9600 /* Emprestimo+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +36,14 @@
 		3F53B36A1E2E3A6200B28A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F53B3911E2E51D500B28A3C /* VeiculosCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeiculosCell.swift; sourceTree = "<group>"; };
 		3F53B3951E2E52D900B28A3C /* VeiculosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeiculosTableViewController.swift; sourceTree = "<group>"; };
+		53F9D6DC1E2E6323004C9600 /* Veiculo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Veiculo+CoreDataClass.swift"; path = "Fleet/Veiculo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		53F9D6DD1E2E6323004C9600 /* Veiculo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Veiculo+CoreDataProperties.swift"; path = "Fleet/Veiculo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		53F9D6DE1E2E6323004C9600 /* Condutor+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Condutor+CoreDataClass.swift"; path = "Fleet/Condutor+CoreDataClass.swift"; sourceTree = "<group>"; };
+		53F9D6DF1E2E6323004C9600 /* Condutor+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Condutor+CoreDataProperties.swift"; path = "Fleet/Condutor+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		53F9D6E01E2E6323004C9600 /* Trajetoria+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Trajetoria+CoreDataClass.swift"; path = "Fleet/Trajetoria+CoreDataClass.swift"; sourceTree = "<group>"; };
+		53F9D6E11E2E6323004C9600 /* Trajetoria+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Trajetoria+CoreDataProperties.swift"; path = "Fleet/Trajetoria+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		53F9D6E21E2E6323004C9600 /* Emprestimo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Emprestimo+CoreDataClass.swift"; path = "Fleet/Emprestimo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		53F9D6E31E2E6323004C9600 /* Emprestimo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Emprestimo+CoreDataProperties.swift"; path = "Fleet/Emprestimo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +122,58 @@
 			path = Fleet;
 			sourceTree = "<group>";
 		};
+		53F9D6D91E2E61C4004C9600 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				3F53B3621E2E3A6100B28A3C /* Fleet.xcdatamodeld */,
+				53F9D6DB1E2E61E3004C9600 /* DAO */,
+				53F9D6DA1E2E61D3004C9600 /* VO */,
+			);
+			name = Module;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		53F9D6DA1E2E61D3004C9600 /* VO */ = {
+			isa = PBXGroup;
+			children = (
+				53F9D6DC1E2E6323004C9600 /* Veiculo+CoreDataClass.swift */,
+				53F9D6DD1E2E6323004C9600 /* Veiculo+CoreDataProperties.swift */,
+				53F9D6DE1E2E6323004C9600 /* Condutor+CoreDataClass.swift */,
+				53F9D6DF1E2E6323004C9600 /* Condutor+CoreDataProperties.swift */,
+				53F9D6E01E2E6323004C9600 /* Trajetoria+CoreDataClass.swift */,
+				53F9D6E11E2E6323004C9600 /* Trajetoria+CoreDataProperties.swift */,
+				53F9D6E21E2E6323004C9600 /* Emprestimo+CoreDataClass.swift */,
+				53F9D6E31E2E6323004C9600 /* Emprestimo+CoreDataProperties.swift */,
+			);
+			name = VO;
+			sourceTree = "<group>";
+		};
+		53F9D6DB1E2E61E3004C9600 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DAO;
+			sourceTree = "<group>";
+		};
+		E45F41121E2E63E60007DC47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F53B35B1E2E3A6100B28A3C /* AppDelegate.swift */,
+				3F53B3651E2E3A6100B28A3C /* Assets.xcassets */,
+				3F53B36A1E2E3A6200B28A3C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E45F41131E2E640F0007DC47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F53B35F1E2E3A6100B28A3C /* Main.storyboard */,
+				3F53B3671E2E3A6200B28A3C /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -178,10 +246,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53F9D6E81E2E6323004C9600 /* Trajetoria+CoreDataClass.swift in Sources */,
 				3F53B35E1E2E3A6100B28A3C /* ViewController.swift in Sources */,
+				53F9D6E61E2E6323004C9600 /* Condutor+CoreDataClass.swift in Sources */,
+				53F9D6E41E2E6323004C9600 /* Veiculo+CoreDataClass.swift in Sources */,
 				3F53B35C1E2E3A6100B28A3C /* AppDelegate.swift in Sources */,
+				53F9D6E91E2E6323004C9600 /* Trajetoria+CoreDataProperties.swift in Sources */,
+				53F9D6EB1E2E6323004C9600 /* Emprestimo+CoreDataProperties.swift in Sources */,
+				53F9D6E51E2E6323004C9600 /* Veiculo+CoreDataProperties.swift in Sources */,
 				3F53B3641E2E3A6100B28A3C /* Fleet.xcdatamodeld in Sources */,
+				53F9D6E71E2E6323004C9600 /* Condutor+CoreDataProperties.swift in Sources */,
 				3F53B3921E2E51D500B28A3C /* VeiculosCell.swift in Sources */,
+				53F9D6EA1E2E6323004C9600 /* Emprestimo+CoreDataClass.swift in Sources */,
 				3F53B3961E2E52D900B28A3C /* VeiculosTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +382,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fleet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teste.eu.Fleet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -318,6 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fleet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teste.eu.Fleet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -344,6 +422,7 @@
 				3F53B36F1E2E3A6200B28A3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -354,7 +433,8 @@
 				3F53B3631E2E3A6100B28A3C /* Fleet.xcdatamodel */,
 			);
 			currentVersion = 3F53B3631E2E3A6100B28A3C /* Fleet.xcdatamodel */;
-			path = Fleet.xcdatamodeld;
+			name = Fleet.xcdatamodeld;
+			path = Fleet/Fleet.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
