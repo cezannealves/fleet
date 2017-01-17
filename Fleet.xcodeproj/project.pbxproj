@@ -45,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				3F53B35A1E2E3A6100B28A3C /* Fleet */,
+				3F53B3991E2E5D4300B28A3C /* Supporting files */,
 				3F53B3591E2E3A6100B28A3C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,25 +61,49 @@
 		3F53B35A1E2E3A6100B28A3C /* Fleet */ = {
 			isa = PBXGroup;
 			children = (
-				3F53B3901E2E516700B28A3C /* Controler */,
-				3F53B35B1E2E3A6100B28A3C /* AppDelegate.swift */,
-				3F53B35F1E2E3A6100B28A3C /* Main.storyboard */,
-				3F53B3651E2E3A6100B28A3C /* Assets.xcassets */,
-				3F53B3671E2E3A6200B28A3C /* LaunchScreen.storyboard */,
-				3F53B36A1E2E3A6200B28A3C /* Info.plist */,
-				3F53B3621E2E3A6100B28A3C /* Fleet.xcdatamodeld */,
+				3F53B3981E2E5CF900B28A3C /* View */,
+				3F53B3971E2E5CDA00B28A3C /* Model */,
+				3F53B3901E2E516700B28A3C /* Controller */,
 			);
 			path = Fleet;
 			sourceTree = "<group>";
 		};
-		3F53B3901E2E516700B28A3C /* Controler */ = {
+		3F53B3901E2E516700B28A3C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				3F53B35D1E2E3A6100B28A3C /* ViewController.swift */,
 				3F53B3911E2E51D500B28A3C /* VeiculosCell.swift */,
 				3F53B3951E2E52D900B28A3C /* VeiculosTableViewController.swift */,
 			);
-			name = Controler;
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3F53B3971E2E5CDA00B28A3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F53B3621E2E3A6100B28A3C /* Fleet.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3F53B3981E2E5CF900B28A3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F53B35F1E2E3A6100B28A3C /* Main.storyboard */,
+				3F53B3651E2E3A6100B28A3C /* Assets.xcassets */,
+				3F53B3671E2E3A6200B28A3C /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3F53B3991E2E5D4300B28A3C /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				3F53B35B1E2E3A6100B28A3C /* AppDelegate.swift */,
+				3F53B36A1E2E3A6200B28A3C /* Info.plist */,
+			);
+			name = "Supporting files";
+			path = Fleet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
