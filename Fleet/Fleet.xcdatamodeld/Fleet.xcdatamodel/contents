@@ -1,16 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="16A323" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Entity" syncable="YES">
-        <attribute name="cnh" optional="YES" syncable="YES"/>
+    <entity name="Condutor" representedClassName=".Condutor" syncable="YES">
+        <attribute name="cnh" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foto" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="matricula" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="nome" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="emprestimos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Emprestimo" inverseName="condutor" inverseEntity="Emprestimo" syncable="YES"/>
     </entity>
-    <entity name="Veiculo" syncable="YES">
+    <entity name="Emprestimo" representedClassName=".Emprestimo" syncable="YES">
+        <attribute name="destino" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="entrega" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="origem" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="previsaodeentrega" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="retirada" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="condutor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Condutor" inverseName="emprestimos" inverseEntity="Condutor" syncable="YES"/>
+        <relationship name="trajetoria" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Trajetoria" inverseName="emprestimo" inverseEntity="Trajetoria" syncable="YES"/>
+        <relationship name="veiculo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Veiculo" inverseName="emprestimos" inverseEntity="Veiculo" syncable="YES"/>
+    </entity>
+    <entity name="Trajetoria" representedClassName=".Trajetoria" syncable="YES">
+        <attribute name="latitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="velocidademedia" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="emprestimo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Emprestimo" inverseName="trajetoria" inverseEntity="Emprestimo" syncable="YES"/>
+    </entity>
+    <entity name="Veiculo" representedClassName=".Veiculo" syncable="YES">
         <attribute name="ano" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="modelo" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="placa" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="emprestimos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Emprestimo" inverseName="veiculo" inverseEntity="Emprestimo" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Veiculo" positionX="-63" positionY="-18" width="128" height="90"/>
-        <element name="Entity" positionX="-54" positionY="18" width="128" height="75"/>
+        <element name="Veiculo" positionX="-306" positionY="-78" width="128" height="103"/>
+        <element name="Condutor" positionX="-47" positionY="-129" width="128" height="118"/>
+        <element name="Emprestimo" positionX="-227" positionY="108" width="128" height="163"/>
+        <element name="Trajetoria" positionX="-2" positionY="222" width="128" height="118"/>
     </elements>
 </model>
