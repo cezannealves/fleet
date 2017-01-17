@@ -60,7 +60,6 @@
 		3F53B34F1E2E3A6100B28A3C = {
 			isa = PBXGroup;
 			children = (
-				53F9D6D91E2E61C4004C9600 /* Module */,
 				3F53B35A1E2E3A6100B28A3C /* Fleet */,
 				3F53B3591E2E3A6100B28A3C /* Products */,
 			);
@@ -77,13 +76,10 @@
 		3F53B35A1E2E3A6100B28A3C /* Fleet */ = {
 			isa = PBXGroup;
 			children = (
-				3F53B3621E2E3A6100B28A3C /* Fleet.xcdatamodeld */,
+				53F9D6D91E2E61C4004C9600 /* Module */,
 				3F53B3901E2E516700B28A3C /* Controler */,
-				3F53B35B1E2E3A6100B28A3C /* AppDelegate.swift */,
-				3F53B35F1E2E3A6100B28A3C /* Main.storyboard */,
-				3F53B3651E2E3A6100B28A3C /* Assets.xcassets */,
-				3F53B3671E2E3A6200B28A3C /* LaunchScreen.storyboard */,
-				3F53B36A1E2E3A6200B28A3C /* Info.plist */,
+				E45F41121E2E63E60007DC47 /* Supporting Files */,
+				E45F41131E2E640F0007DC47 /* View */,
 			);
 			path = Fleet;
 			sourceTree = "<group>";
@@ -101,10 +97,12 @@
 		53F9D6D91E2E61C4004C9600 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				3F53B3621E2E3A6100B28A3C /* Fleet.xcdatamodeld */,
 				53F9D6DB1E2E61E3004C9600 /* DAO */,
 				53F9D6DA1E2E61D3004C9600 /* VO */,
 			);
 			name = Module;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		53F9D6DA1E2E61D3004C9600 /* VO */ = {
@@ -127,6 +125,25 @@
 			children = (
 			);
 			name = DAO;
+			sourceTree = "<group>";
+		};
+		E45F41121E2E63E60007DC47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F53B35B1E2E3A6100B28A3C /* AppDelegate.swift */,
+				3F53B3651E2E3A6100B28A3C /* Assets.xcassets */,
+				3F53B36A1E2E3A6200B28A3C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E45F41131E2E640F0007DC47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F53B35F1E2E3A6100B28A3C /* Main.storyboard */,
+				3F53B3671E2E3A6200B28A3C /* LaunchScreen.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,7 +405,8 @@
 				3F53B3631E2E3A6100B28A3C /* Fleet.xcdatamodel */,
 			);
 			currentVersion = 3F53B3631E2E3A6100B28A3C /* Fleet.xcdatamodel */;
-			path = Fleet.xcdatamodeld;
+			name = Fleet.xcdatamodeld;
+			path = Fleet/Fleet.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
