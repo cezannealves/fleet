@@ -85,12 +85,85 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Condutores" id="RSp-di-xsy">
                         <barButtonItem key="leftBarButtonItem" systemItem="search" id="cyS-bI-f17"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="mdw-IA-B3Z"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="mdw-IA-B3Z">
+                            <connections>
+                                <segue destination="7ge-9O-8fw" kind="show" id="hcQ-8q-4wL"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E8U-Ws-rqI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1453.5999999999999" y="366.56671664167919"/>
+        </scene>
+        <!--Condutor Add-->
+        <scene sceneID="9hW-5H-kvY">
+            <objects>
+                <viewController title="Condutor Add" id="7ge-9O-8fw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jtk-Ie-sBi"/>
+                        <viewControllerLayoutGuide type="bottom" id="zwa-7b-oWW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PGo-Gb-ssC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Zni-7M-XGA" userLabel="Condutor Stack View">
+                                <rect key="frame" x="16" y="72" width="343" height="144"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zT3-El-ILR">
+                                        <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="90" id="fQi-qN-LJZ"/>
+                                            <constraint firstAttribute="width" constant="90" id="jkI-B0-utO"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="AdN-Xd-jea" userLabel="Text Field Stack View">
+                                        <rect key="frame" x="90" y="0.0" width="253" height="144"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nome" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ETa-tm-xPd">
+                                                <rect key="frame" x="0.0" y="0.0" width="253" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Matrícula" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P5B-A8-liA">
+                                                <rect key="frame" x="0.0" y="38" width="253" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Telefone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KIM-eB-Qsx">
+                                                <rect key="frame" x="0.0" y="76" width="253" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="CNH" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="afz-kL-5ti">
+                                                <rect key="frame" x="0.0" y="114" width="253" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Zni-7M-XGA" firstAttribute="leading" secondItem="PGo-Gb-ssC" secondAttribute="leadingMargin" id="BUW-qM-ioj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Zni-7M-XGA" secondAttribute="trailing" id="Vlf-i6-Tve"/>
+                            <constraint firstItem="Zni-7M-XGA" firstAttribute="top" secondItem="jtk-Ie-sBi" secondAttribute="bottom" constant="8" id="XkN-L7-HyB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Novo Condutor" id="zoK-hr-yes" userLabel="Novo Condutor">
+                        <barButtonItem key="rightBarButtonItem" title="OK" id="uyS-yS-Rvs" userLabel="OK"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lr3-Js-6vt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2421.5999999999999" y="366.56671664167919"/>
         </scene>
         <!--AAA-0000-->
         <scene sceneID="vSC-YB-PL9">
