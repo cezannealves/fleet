@@ -39,9 +39,10 @@ class VeiculosTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "veiculoListCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "veiculoListCell", for: indexPath) as! VeiculosCell
 
         // Configure the cell...
+        
 
         return cell
     }
