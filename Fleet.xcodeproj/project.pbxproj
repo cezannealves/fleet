@@ -15,17 +15,19 @@
 		3F53B3691E2E3A6200B28A3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F53B3671E2E3A6200B28A3C /* LaunchScreen.storyboard */; };
 		3F53B3921E2E51D500B28A3C /* VeiculosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F53B3911E2E51D500B28A3C /* VeiculosCell.swift */; };
 		3F53B3961E2E52D900B28A3C /* VeiculosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F53B3951E2E52D900B28A3C /* VeiculosTableViewController.swift */; };
+		3F9BA8B61E31440E0026AF21 /* MapsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9BA8B51E31440E0026AF21 /* MapsTableViewCell.swift */; };
+		3F9BA8B81E314D3B0026AF21 /* TrajetoriaDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9BA8B71E314D3B0026AF21 /* TrajetoriaDAO.swift */; };
+		3F9BA8C11E3150E40026AF21 /* Emprestimo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9BA8B91E3150E40026AF21 /* Emprestimo+CoreDataClass.swift */; };
+		3F9BA8C21E3150E40026AF21 /* Emprestimo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9BA8BA1E3150E40026AF21 /* Emprestimo+CoreDataProperties.swift */; };
+		3F9BA8C31E3150E40026AF21 /* Veiculo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9BA8BB1E3150E40026AF21 /* Veiculo+CoreDataClass.swift */; };
+		3F9BA8C41E3150E40026AF21 /* Veiculo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9BA8BC1E3150E40026AF21 /* Veiculo+CoreDataProperties.swift */; };
+		3F9BA8C51E3150E40026AF21 /* Condutor+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9BA8BD1E3150E40026AF21 /* Condutor+CoreDataClass.swift */; };
+		3F9BA8C61E3150E40026AF21 /* Condutor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9BA8BE1E3150E40026AF21 /* Condutor+CoreDataProperties.swift */; };
+		3F9BA8CB1E3152130026AF21 /* Trajetoria+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9BA8C91E3152130026AF21 /* Trajetoria+CoreDataClass.swift */; };
+		3F9BA8CC1E3152130026AF21 /* Trajetoria+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9BA8CA1E3152130026AF21 /* Trajetoria+CoreDataProperties.swift */; };
 		3FB3579F1E30FA9D0050806A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB3579E1E30FA9D0050806A /* CoreLocation.framework */; };
 		3FB357A11E30FAA40050806A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB357A01E30FAA40050806A /* MapKit.framework */; };
 		3FB357A51E30FFF70050806A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB357A41E30FFF70050806A /* MapViewController.swift */; };
-		53F9D6E41E2E6323004C9600 /* Veiculo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9D6DC1E2E6323004C9600 /* Veiculo+CoreDataClass.swift */; };
-		53F9D6E51E2E6323004C9600 /* Veiculo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9D6DD1E2E6323004C9600 /* Veiculo+CoreDataProperties.swift */; };
-		53F9D6E61E2E6323004C9600 /* Condutor+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9D6DE1E2E6323004C9600 /* Condutor+CoreDataClass.swift */; };
-		53F9D6E71E2E6323004C9600 /* Condutor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9D6DF1E2E6323004C9600 /* Condutor+CoreDataProperties.swift */; };
-		53F9D6E81E2E6323004C9600 /* Trajetoria+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9D6E01E2E6323004C9600 /* Trajetoria+CoreDataClass.swift */; };
-		53F9D6E91E2E6323004C9600 /* Trajetoria+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9D6E11E2E6323004C9600 /* Trajetoria+CoreDataProperties.swift */; };
-		53F9D6EA1E2E6323004C9600 /* Emprestimo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9D6E21E2E6323004C9600 /* Emprestimo+CoreDataClass.swift */; };
-		53F9D6EB1E2E6323004C9600 /* Emprestimo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9D6E31E2E6323004C9600 /* Emprestimo+CoreDataProperties.swift */; };
 		E45F41151E2ED7E70007DC47 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F41141E2ED7E70007DC47 /* CoreDataManager.swift */; };
 		E45F41171E2ED96F0007DC47 /* CondutorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F41161E2ED96F0007DC47 /* CondutorTableViewController.swift */; };
 		E45F41191E2EE5220007DC47 /* Condutores.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F41181E2EE5220007DC47 /* Condutores.swift */; };
@@ -43,17 +45,19 @@
 		3F53B36A1E2E3A6200B28A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F53B3911E2E51D500B28A3C /* VeiculosCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeiculosCell.swift; sourceTree = "<group>"; };
 		3F53B3951E2E52D900B28A3C /* VeiculosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeiculosTableViewController.swift; sourceTree = "<group>"; };
+		3F9BA8B51E31440E0026AF21 /* MapsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsTableViewCell.swift; sourceTree = "<group>"; };
+		3F9BA8B71E314D3B0026AF21 /* TrajetoriaDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrajetoriaDAO.swift; sourceTree = "<group>"; };
+		3F9BA8B91E3150E40026AF21 /* Emprestimo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Emprestimo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3F9BA8BA1E3150E40026AF21 /* Emprestimo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Emprestimo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F9BA8BB1E3150E40026AF21 /* Veiculo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Veiculo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3F9BA8BC1E3150E40026AF21 /* Veiculo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Veiculo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F9BA8BD1E3150E40026AF21 /* Condutor+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Condutor+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3F9BA8BE1E3150E40026AF21 /* Condutor+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Condutor+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F9BA8C91E3152130026AF21 /* Trajetoria+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Trajetoria+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3F9BA8CA1E3152130026AF21 /* Trajetoria+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Trajetoria+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3FB3579E1E30FA9D0050806A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		3FB357A01E30FAA40050806A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		3FB357A41E30FFF70050806A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		53F9D6DC1E2E6323004C9600 /* Veiculo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Veiculo+CoreDataClass.swift"; path = "Fleet/Veiculo+CoreDataClass.swift"; sourceTree = "<group>"; };
-		53F9D6DD1E2E6323004C9600 /* Veiculo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Veiculo+CoreDataProperties.swift"; path = "Fleet/Veiculo+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		53F9D6DE1E2E6323004C9600 /* Condutor+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Condutor+CoreDataClass.swift"; path = "Fleet/Condutor+CoreDataClass.swift"; sourceTree = "<group>"; };
-		53F9D6DF1E2E6323004C9600 /* Condutor+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Condutor+CoreDataProperties.swift"; path = "Fleet/Condutor+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		53F9D6E01E2E6323004C9600 /* Trajetoria+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Trajetoria+CoreDataClass.swift"; path = "Fleet/Trajetoria+CoreDataClass.swift"; sourceTree = "<group>"; };
-		53F9D6E11E2E6323004C9600 /* Trajetoria+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Trajetoria+CoreDataProperties.swift"; path = "Fleet/Trajetoria+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		53F9D6E21E2E6323004C9600 /* Emprestimo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Emprestimo+CoreDataClass.swift"; path = "Fleet/Emprestimo+CoreDataClass.swift"; sourceTree = "<group>"; };
-		53F9D6E31E2E6323004C9600 /* Emprestimo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Emprestimo+CoreDataProperties.swift"; path = "Fleet/Emprestimo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E45F41141E2ED7E70007DC47 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataManager.swift; path = Fleet/CoreDataManager.swift; sourceTree = "<group>"; };
 		E45F41161E2ED96F0007DC47 /* CondutorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CondutorTableViewController.swift; sourceTree = "<group>"; };
 		E45F41181E2EE5220007DC47 /* Condutores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Condutores.swift; path = Fleet/Condutores.swift; sourceTree = "<group>"; };
@@ -146,14 +150,14 @@
 		53F9D6DA1E2E61D3004C9600 /* VO */ = {
 			isa = PBXGroup;
 			children = (
-				53F9D6DC1E2E6323004C9600 /* Veiculo+CoreDataClass.swift */,
-				53F9D6DD1E2E6323004C9600 /* Veiculo+CoreDataProperties.swift */,
-				53F9D6DE1E2E6323004C9600 /* Condutor+CoreDataClass.swift */,
-				53F9D6DF1E2E6323004C9600 /* Condutor+CoreDataProperties.swift */,
-				53F9D6E01E2E6323004C9600 /* Trajetoria+CoreDataClass.swift */,
-				53F9D6E11E2E6323004C9600 /* Trajetoria+CoreDataProperties.swift */,
-				53F9D6E21E2E6323004C9600 /* Emprestimo+CoreDataClass.swift */,
-				53F9D6E31E2E6323004C9600 /* Emprestimo+CoreDataProperties.swift */,
+				3F9BA8C91E3152130026AF21 /* Trajetoria+CoreDataClass.swift */,
+				3F9BA8CA1E3152130026AF21 /* Trajetoria+CoreDataProperties.swift */,
+				3F9BA8B91E3150E40026AF21 /* Emprestimo+CoreDataClass.swift */,
+				3F9BA8BA1E3150E40026AF21 /* Emprestimo+CoreDataProperties.swift */,
+				3F9BA8BB1E3150E40026AF21 /* Veiculo+CoreDataClass.swift */,
+				3F9BA8BC1E3150E40026AF21 /* Veiculo+CoreDataProperties.swift */,
+				3F9BA8BD1E3150E40026AF21 /* Condutor+CoreDataClass.swift */,
+				3F9BA8BE1E3150E40026AF21 /* Condutor+CoreDataProperties.swift */,
 			);
 			name = VO;
 			sourceTree = "<group>";
@@ -162,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				E45F41181E2EE5220007DC47 /* Condutores.swift */,
+				3F9BA8B71E314D3B0026AF21 /* TrajetoriaDAO.swift */,
 			);
 			name = DAO;
 			sourceTree = "<group>";
@@ -179,6 +184,7 @@
 		E45F41131E2E640F0007DC47 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3F9BA8B51E31440E0026AF21 /* MapsTableViewCell.swift */,
 				3F53B35F1E2E3A6100B28A3C /* Main.storyboard */,
 				3F53B3671E2E3A6200B28A3C /* LaunchScreen.storyboard */,
 			);
@@ -257,24 +263,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53F9D6E81E2E6323004C9600 /* Trajetoria+CoreDataClass.swift in Sources */,
 				E45F41191E2EE5220007DC47 /* Condutores.swift in Sources */,
 				3F53B35E1E2E3A6100B28A3C /* ViewController.swift in Sources */,
-				53F9D6E61E2E6323004C9600 /* Condutor+CoreDataClass.swift in Sources */,
-				53F9D6E41E2E6323004C9600 /* Veiculo+CoreDataClass.swift in Sources */,
+				3F9BA8C51E3150E40026AF21 /* Condutor+CoreDataClass.swift in Sources */,
+				3F9BA8C21E3150E40026AF21 /* Emprestimo+CoreDataProperties.swift in Sources */,
 				E45F41171E2ED96F0007DC47 /* CondutorTableViewController.swift in Sources */,
+				3F9BA8CB1E3152130026AF21 /* Trajetoria+CoreDataClass.swift in Sources */,
 				3FB357A51E30FFF70050806A /* MapViewController.swift in Sources */,
 				3F53B35C1E2E3A6100B28A3C /* AppDelegate.swift in Sources */,
-				53F9D6E91E2E6323004C9600 /* Trajetoria+CoreDataProperties.swift in Sources */,
-				53F9D6EB1E2E6323004C9600 /* Emprestimo+CoreDataProperties.swift in Sources */,
-				53F9D6E51E2E6323004C9600 /* Veiculo+CoreDataProperties.swift in Sources */,
+				3F9BA8B61E31440E0026AF21 /* MapsTableViewCell.swift in Sources */,
+				3F9BA8C31E3150E40026AF21 /* Veiculo+CoreDataClass.swift in Sources */,
+				3F9BA8CC1E3152130026AF21 /* Trajetoria+CoreDataProperties.swift in Sources */,
 				3F53B3641E2E3A6100B28A3C /* Fleet.xcdatamodeld in Sources */,
-				53F9D6E71E2E6323004C9600 /* Condutor+CoreDataProperties.swift in Sources */,
 				3F53B3921E2E51D500B28A3C /* VeiculosCell.swift in Sources */,
-				53F9D6EA1E2E6323004C9600 /* Emprestimo+CoreDataClass.swift in Sources */,
+				3F9BA8C41E3150E40026AF21 /* Veiculo+CoreDataProperties.swift in Sources */,
+				3F9BA8C11E3150E40026AF21 /* Emprestimo+CoreDataClass.swift in Sources */,
 				E45F411B1E2EEBE20007DC47 /* CondutorTableViewCell.swift in Sources */,
 				E45F41151E2ED7E70007DC47 /* CoreDataManager.swift in Sources */,
+				3F9BA8C61E3150E40026AF21 /* Condutor+CoreDataProperties.swift in Sources */,
 				3F53B3961E2E52D900B28A3C /* VeiculosTableViewController.swift in Sources */,
+				3F9BA8B81E314D3B0026AF21 /* TrajetoriaDAO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

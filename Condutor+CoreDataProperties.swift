@@ -2,12 +2,13 @@
 //  Condutor+CoreDataProperties.swift
 //  Fleet
 //
-//  Created by Rafael Lima de Carvalho on 17/01/17.
+//  Created by Student on 1/19/17.
 //  Copyright © 2017 Student. All rights reserved.
 //
 
 import Foundation
 import CoreData
+
 
 extension Condutor {
 
@@ -15,10 +16,10 @@ extension Condutor {
         return NSFetchRequest<Condutor>(entityName: "Condutor");
     }
 
-    @NSManaged public var nome: String?
     @NSManaged public var cnh: String?
-    @NSManaged public var matricula: String?
     @NSManaged public var foto: NSData?
+    @NSManaged public var matricula: String?
+    @NSManaged public var nome: String?
     @NSManaged public var emprestimos: NSSet?
 
 }

@@ -1,15 +1,14 @@
 //
-//  VeiculosCell.swift
+//  MapsTableViewCell.swift
 //  Fleet
 //
-//  Created by Student on 1/17/17.
+//  Created by Student on 1/19/17.
 //  Copyright © 2017 Student. All rights reserved.
 //
 
 import UIKit
 
-class VeiculosCell: UITableViewCell {
-    @IBOutlet weak var teste: UILabel!
+class MapsTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -21,10 +20,5 @@ class VeiculosCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
-//    override func prepareForReuse() {
-//        <#code#>
-//    }
-    
 
 }

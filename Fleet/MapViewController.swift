@@ -21,7 +21,20 @@ class MapViewController: UIViewController {
         map.showsUserLocation = true
         //setupLocationMaganer()
         
-        get_data_from_url("http://data.sparkfun.com/output/v0vmXEGgQmuOM1W40DN6.json")
+        //get_data_from_url("http://data.sparkfun.com/output/v0vmXEGgQmuOM1W40DN6.json")
+        
+        let trajeto: [Trajetoria] = TrajetoriaDao.searchAll()
+        //var points: [CLLocationCoordinate2D] = [CLLocationCoordinate2D]()
+        
+        for point in trajeto{
+           // points.append(CLLocationCoordinate2DMake(Double(point.latitude!)!, Double(point.longitude!)!))
+            addMarkerToMap(lat: Double(point.latitude!)!, lon: Double(point.longitude!)!, placa: String(point.placa!)!, time: String(point.time!)!)
+
+        }
+        
+      //  let polyline = MKPolyline(coordinates: &amp;points, count: trajeto.count)
+        
+        //self.map.addOverlays(polyline)
 
         // Do any additional setup after loading the view.
     }

@@ -17,6 +17,85 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        
+        
+        
+        func get_data_from_url(_ link:String) {
+            let url:URL = URL(string: link)!
+            let session = URLSession.shared
+            
+            let request = NSMutableURLRequest(url: url)
+            request.httpMethod = "GET"
+            request.cachePolicy = NSURLRequest.CachePolicy.reloadIgnoringCacheData
+            
+            
+            let task = session.dataTask(with: request as URLRequest, completionHandler: {
+                (data, response, error) in
+                
+                guard let _:Data = data, let _:URLResponse = response  , error == nil else {
+                    return
+                }
+                extract_json(data!)
+            })
+            task.resume()
+        }
+        
+        
+        func extract_json(_ data: Data)  {
+            let json: Any?
+            
+            do {
+                json = try JSONSerialization.jsonObject(with: data, options: [])
+            } catch {
+                return
+            }
+            
+            guard let data_list = json as? NSArray else {
+                return
+            }
+            var ponto : Trajetoria
+            
+            if let positions_list = json as? NSArray {
+                for i in 0 ..< data_list.count {
+                    if let positions_obj = positions_list[i] as? NSDictionary {
+                        if let latitude = positions_obj["latitude"] as? String {
+                            if let longitude = positions_obj["longitude"] as? String {
+                                if let speed = positions_obj["speed"] as? String {
+                                    if let placa = positions_obj["placa"] as? String {
+                                        if let altitude = positions_obj["altitude"] as? String {
+                                            if let times = positions_obj["timestamp"] as? String {
+                                                if (latitude != "0.0") && (longitude != "0.0") {
+                                                    print(latitude + "," + longitude + " [" + speed + "] - " + placa + " [" + altitude + "]" )
+                                                    //addMarkerToMap(lat: Double(latitude)!, lon: Double(longitude)!, placa: String(placa)!, time: String(times))
+                                                    
+                                                    ponto = Trajetoria()
+                                                    ponto.latitude = latitude
+                                                    ponto.longitude = longitude
+                                                    ponto.time = times
+                                                    ponto.placa =  placa
+                                                    
+                                                    TrajetoriaDao.insert()
+                                                    
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        //get_data_from_url("http://data.sparkfun.com/output/v0vmXEGgQmuOM1W40DN6.json")
+        
+        
+        
+        
         return true
     }
 

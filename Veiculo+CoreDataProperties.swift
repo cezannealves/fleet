@@ -2,12 +2,13 @@
 //  Veiculo+CoreDataProperties.swift
 //  Fleet
 //
-//  Created by Rafael Lima de Carvalho on 17/01/17.
+//  Created by Student on 1/19/17.
 //  Copyright © 2017 Student. All rights reserved.
 //
 
 import Foundation
-import CoreData 
+import CoreData
+
 
 extension Veiculo {
 
@@ -15,9 +16,9 @@ extension Veiculo {
         return NSFetchRequest<Veiculo>(entityName: "Veiculo");
     }
 
-    @NSManaged public var placa: String?
-    @NSManaged public var modelo: String?
     @NSManaged public var ano: Int16
+    @NSManaged public var modelo: String?
+    @NSManaged public var placa: String?
     @NSManaged public var emprestimos: NSSet?
 
 }

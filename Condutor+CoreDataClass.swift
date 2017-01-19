@@ -2,7 +2,7 @@
 //  Condutor+CoreDataClass.swift
 //  Fleet
 //
-//  Created by Rafael Lima de Carvalho on 17/01/17.
+//  Created by Student on 1/19/17.
 //  Copyright © 2017 Student. All rights reserved.
 //
 

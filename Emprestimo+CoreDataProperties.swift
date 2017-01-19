@@ -2,12 +2,13 @@
 //  Emprestimo+CoreDataProperties.swift
 //  Fleet
 //
-//  Created by Rafael Lima de Carvalho on 17/01/17.
+//  Created by Student on 1/19/17.
 //  Copyright © 2017 Student. All rights reserved.
 //
 
 import Foundation
-import CoreData 
+import CoreData
+
 
 extension Emprestimo {
 
@@ -15,14 +16,14 @@ extension Emprestimo {
         return NSFetchRequest<Emprestimo>(entityName: "Emprestimo");
     }
 
-    @NSManaged public var retirada: NSDate?
-    @NSManaged public var entrega: NSDate?
-    @NSManaged public var previsaodeentrega: NSDate?
-    @NSManaged public var origem: String?
     @NSManaged public var destino: String?
+    @NSManaged public var entrega: NSDate?
+    @NSManaged public var origem: String?
+    @NSManaged public var previsaodeentrega: NSDate?
+    @NSManaged public var retirada: NSDate?
     @NSManaged public var condutor: Condutor?
-    @NSManaged public var veiculo: Veiculo?
     @NSManaged public var trajetoria: NSSet?
+    @NSManaged public var veiculo: Veiculo?
 
 }
 
